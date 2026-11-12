@@ -7,19 +7,19 @@ class Hume < Formula
     depends_on arch: :arm64
 
     on_arm do
-      url "https://github.com/cvlmtg/HUME/releases/download/v0.20.1/hume-0.20.1-e283b9a9f-aarch64-apple-darwin.tar.gz"
-      sha256 "43b4be6dedcc9645be04e8b9101bed35c6388cf883b5135e545898f25a19eed0"
+      url "https://github.com/cvlmtg/HUME/releases/download/v0.21.0/hume-0.21.0-531ae018f-aarch64-apple-darwin.tar.gz"
+      sha256 "515c86dc378084213b7982b99863bcd1ac48f8ee9dd7d9a48aa505f9ca9718ca"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/cvlmtg/HUME/releases/download/v0.20.1/hume-0.20.1-e283b9a9f-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6f4928dfe72c6b99b048eaa6969d5a8271907360785bdb71b89577aca563e064"
+      url "https://github.com/cvlmtg/HUME/releases/download/v0.21.0/hume-0.21.0-531ae018f-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9b6233e1c6759a9c89faeaf3fc723fbc0585abbcdd6b13e7837c437fb3a76cf7"
     end
     on_arm do
-      url "https://github.com/cvlmtg/HUME/releases/download/v0.20.1/hume-0.20.1-e283b9a9f-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8c3009c4c04e5ed91660c261dfad7c955b3d6042bcff31763e48ea9048ff553a"
+      url "https://github.com/cvlmtg/HUME/releases/download/v0.21.0/hume-0.21.0-531ae018f-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "80ae36d98ecaf804547239009e5e4a044885f2021f9b0e37d05024ea03a402c9"
     end
   end
 
